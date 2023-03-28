@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+ul  {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact  {
+    display: flex;
+    background-color: aliceblue;
+    margin:1;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+    height: 40px;
+}
+.contact  li{
+    display: flex;
+    flex:4;
+    justify-content: space-between;
+}
+
+.delete-button {
+    flex:1;
+
+}
